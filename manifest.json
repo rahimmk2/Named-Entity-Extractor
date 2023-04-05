@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Highlight Labels",
+  "version": "1.0",
+  "description": "A Chrome extension that highlights all words with their labels",
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Highlight Labels"
+  }
+}

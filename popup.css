@@ -1,0 +1,34 @@
+body {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+body>* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#highlight-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    font-size: 16x;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+#highlight-btn:hover {
+    background-color: #e53935;
+}
+
+#highlight-btn:active {
+    background-color: #d32f2f;
+}
