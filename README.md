@@ -1,5 +1,3 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mNEouh8Guhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 **Web Entity Extractor - Chrome Extension**
 
 The Web Entity Extractor is a powerful Chrome extension that allows users to automatically extract and highlight named entities, such as people, organizations, and locations, from webpages. This extension is backed by a robust backend server that handles HTTP requests and connects to a Python file, leveraging advanced natural language processing techniques for accurate identification and highlighting of named entities.
